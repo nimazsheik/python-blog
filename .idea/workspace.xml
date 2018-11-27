@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b207b601-7ace-4447-88c5-795f3c61d2fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/blog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/blog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="-7">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/blog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="-7">
+              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -43,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            <state relative-caret-position="83">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -55,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/post.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="-7">
               <caret line="28" column="25" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -67,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="-7">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -83,6 +81,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Nimaz Sheik &lt;nimazsheik@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -97,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -128,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543306004991</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Menu created for the terminal to work with blogs">
+      <created>1543334028267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543334028267</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -204,12 +214,12 @@
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08025682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08025682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31879196" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49832216" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -227,7 +237,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="post message work as it is entered to database" />
-    <option name="LAST_COMMIT_MESSAGE" value="post message work as it is entered to database" />
+    <MESSAGE value="Menu created for the terminal to work with blogs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu created for the terminal to work with blogs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/models/post" />
@@ -238,16 +249,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/post.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="-7">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -257,8 +261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="-7">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -267,18 +271,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/blog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="-7">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/menu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        <state relative-caret-position="83">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
