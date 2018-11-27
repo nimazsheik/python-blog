@@ -43,7 +43,7 @@ class Blog(object):
         }
 
     @classmethod
-    def from_mongo(cls,id):   #cls is Blog()
+    def from_mongo(cls, id):   # cls is Blog()
         blog_data = Database.find_one(collection='blogs',
                                       query={'id':id})
         return cls(author = blog_data["author"],

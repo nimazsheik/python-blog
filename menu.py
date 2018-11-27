@@ -9,14 +9,15 @@ class Menu(object):
         # If not, prompt them to create one
         self.user = input("Enter the author name; ")
         self.user_blog = None
-        if self._user_has_account(): # underscore before method name means private method
+        # underscore before method name means private method
+        if self._user_has_account():
             print("Welcome back {} ".format(self.user))
         else:
             self._prompt_user_for_account()
         pass
 
     def _user_has_account(self):
-        blog = Database.find_one('blogs', {'author':self.user}) is not None
+        blog = Database.find_one('blogs', {'author': self.user})
         if blog is not None:
             self.user_blog = Blog.from_mongo(blog['id'])
             return True
