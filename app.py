@@ -1,8 +1,18 @@
+from database import Database
 from models.post import Post
 
-post = Post("post title","Post content","post author")
-post1 = Post("1","2","3a")
+Database.initialize()
 
+# post = Post(blog_id="123",
+#            title="Another great post",
+#            content="Some content",
+#            author="Nimaz")
 
-print(post)
-print(post1.content)
+# post.save_to_mongo()
+
+## post= Post.from_mongo("97939165e8784a53b400e2fa6a959521")
+## print(post)
+posts = Post.from_blog('123')
+
+for post in posts:
+    print(post)
